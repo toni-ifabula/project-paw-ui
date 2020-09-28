@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-custom {
+    background-color: #FF6700;
+}
+
+.navbar-brand-custom {
+    color: white;
+    font-family: 'Sriracha';
+    margin: 0rem 1rem;
+    font-size: 2.5rem;
+}
+
+ul li a {
+    color: white;
+}
+
+.btn {
+    background-color: #004E98;
+    color: white;
+    border-radius: 10px;
+}
+
+.backBox {
+    position: absolute;
+    left: 20.35%;
+    right: 20.35%;
+    top: 28.71%;
+    bottom: 28.61%;
+    border-radius: 20px;
+    background-color: #EBEBEB;
+}
+
+.emailIcon {
+    position: absolute;
+    left: 41%;
+    font-size: 10rem; 
+    color: #FF6700;
+}
+
+.emailTxt {
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 65%;
+    bottom: 33.98%;
+
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.hero-image {
+    width: 100%;
+    height: 500px;
+    background: url('city.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.card-container {
+    width: 100%;
+    height: 500px;
+    background: #EEF4F7;
+}
+
+.pelayanan {
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.card-icon {
+    position: relative;
+    margin: auto;
+    font-size: 5rem; 
+    color: #FF6700;
+}
+
+.footer {
+    width: 100%;
+    height: 250px;
+    background: #C0C0C0;
+}
+
+#map {
+    width: 300px;
+    height: 150px;
+    background: grey;
+}
